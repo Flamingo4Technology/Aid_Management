@@ -148,7 +148,7 @@ class DashboardPage extends StatelessWidget {
                       ),
                       child: Column(
                         children: [
-                          _statRow("المستفيدون النشطون", "4"),
+                          _statRow("المستفيدون النشطون", "10"),
                           const Divider(),
                           _statRow("عدد الحملات الحالية", "2"),
                         ],
