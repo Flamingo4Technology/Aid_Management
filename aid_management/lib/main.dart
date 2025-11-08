@@ -27,9 +27,9 @@ class DashboardPage extends StatelessWidget {
     return Directionality(
       textDirection: TextDirection.rtl,
       child: Scaffold(
-        backgroundColor:  Color.fromARGB(255, 181, 184, 195),
+        backgroundColor: const Color(0xFFF8F9FC),
         appBar: AppBar(
-          backgroundColor:  Color.fromARGB(255, 84, 118, 228),
+          backgroundColor: const Color(0xFF1E40AF),
           elevation: 0,
           title: const Text(
             "لوحة التحكم",
@@ -68,8 +68,8 @@ class DashboardPage extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    _statCard("الحملات النشطة", "1"),
-                    _statCard("إجمالي المستفيدين", "4"),
+                    _statCard("الحملات النشطة", "4"),
+                    _statCard("إجمالي المستفيدين", "8"),
                   ],
                 ),
               ),
@@ -148,9 +148,9 @@ class DashboardPage extends StatelessWidget {
                       ),
                       child: Column(
                         children: [
-                          _statRow("المستفيدون النشطون", "4"),
+                          _statRow("المستفيدون النشطون", "3"),
                           const Divider(),
-                          _statRow("عدد الحملات الحالية", "2"),
+                          _statRow("عدد الحملات الحالية", "8"),
                         ],
                       ),
                     ),
