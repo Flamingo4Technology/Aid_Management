@@ -69,7 +69,7 @@ class DashboardPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     _statCard("الحملات النشطة", "1"),
-                    _statCard("إجمالي المستفيدين", "3"),
+                    _statCard("إجمالي المستفيدين", "4"),
                   ],
                 ),
               ),
